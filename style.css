@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+
+}
+.section_1{
+    width: 70%;
+    height: 100vh;
+    /*background-color: red;*/
+}
+.header{
+    width: 100%;
+    height: 150px;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-family: segoe uI;
+    font-weight: bold;
+    color: white;
+    padding-left: 50px;
+}
+.audios{
+    height: 700px;
+    width: 100%;
+    /*background-color: gray;*/
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll; /* for giving own scroll bar*/
+    column-gap: calc(4%/3);
+    row-gap: 20px;
+
+}
+
+.audio{
+    height: auto;
+    min-height: 400px;
+    width: 24%;
+    background-color: #101010;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.audio_img{
+    height: 300px;
+    width: 100%;
+    /*background-color: yellow;*/
+    overflow: hidden;
+}
+.audio_img > img {
+    
+    width: 100%;
+}
+.audio_detail{
+    padding: 20px;
+}
+.audio_title{
+    font-family: segoe uI;
+    color: white;
+}
+.btn{
+    padding-top: 10px 50px;
+    margin-top: 20px;
+    border: 3px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #f5680c;
+    border: 3px solid #f5680c;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+
+
+/*-------------------section 2--------------------------*/
+.section_2{
+    width: 30%;
+    height: 100vh;
+    background-color: #101010;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+}
+.thumbnail{
+    width:100%;
+    height: 400px;
+    /*background-color: red;*/
+    overflow: hidden;
+    border-radius: 10px;
+}
+.audio_player{
+    width: 100%;
+}
+.audio_player_title{
+    font-family: segoe uI;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
