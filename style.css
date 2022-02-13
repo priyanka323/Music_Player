@@ -115,6 +115,9 @@
     overflow: hidden;
     border-radius: 10px;
 }
+.thumbnail > img{
+    width: 100%;
+}
 .audio_player{
     width: 100%;
 }

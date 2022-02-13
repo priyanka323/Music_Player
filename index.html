@@ -16,14 +16,14 @@
                     MusIfy
                 </p>
             </header>
-            <div class="audios">
-                <div class="audio">
+            <div class="audios" id="audios">
+            <!----    <div class="audio">
                     <div class="audio_img">
                         <img src="./thumbnail/img1.jpg"/>
                     </div>
                     <div class="audio_detail">
                         <h1 class="audio_title">Khaab - Akhil bedil</h1>
-                        <button class="btn">Play   now</button>
+                        <button class="btn" onclick="playAudio(1)">Play   now</button>
                     </div>
                 </div>
                 <div class="audio">
@@ -32,7 +32,7 @@
                     </div>
                     <div class="audio_detail">
                         <h1 class="audio_title">Waalian</h1>
-                        <button class="btn">Play   now</button>
+                        <button class="btn" onclick="playAudio(2)">Play   now</button>
                     </div>
                 </div>
                 <div class="audio">
@@ -41,7 +41,7 @@
                     </div>
                     <div class="audio_detail">
                         <h1 class="audio_title">Duniya</h1>
-                        <button class="btn">Play   now</button>
+                        <button class="btn" onclick="playAudio(3)">Play   now</button>
                     </div>
                 </div>
                 <div class="audio">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="audio_detail">
                         <h1 class="audio_title">tu_ik_din_rovega</h1>
-                        <button class="btn">Play   now</button>
+                        <button class="btn" onclick="playAudio(4)">Play   now</button>
                     </div>
                 </div>
                 <div class="audio">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="audio_detail">
                         <h1 class="audio_title">main vichara</h1>
-                        <button class="btn">Play   now</button>
+                        <button class="btn" onclick="playAudio(5)">Play   now</button>
                     </div>
                 </div>
                 <div class="audio">
@@ -68,23 +68,21 @@
                     </div>
                     <div class="audio_detail">
                         <h1 class="audio_title">Kade ta tu avenge</h1>
-                        <button class="btn">Play   now</button>
+                        <button class="btn" onclick="playAudio(6)">Play   now</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!---  section_2   -->
         <div class="section_2">
             <div class="thumbnail">
-                <img src="./thumbnail/img1.jpg" alt="" >
+                <img id="thumbnail_id" src="./thumbnail/img1.jpg" alt="" >
             </div>
-            <audio class="audio_player" src="./audio/KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __.mp3" controls></audio>
-            <h1 class="audio_player_title">
+            <audio id="audio_player" class="audio_player" src="./audio/KHAAB __ AKHIL __ PARMISH VERMA __ NEW PUNJABI SONG 2018 __ CROWN RECORDS __.mp3" controls></audio>
+            <h1 id="audio_player_id" class="audio_player_title">
                 Khaab - Akhil bedil
-                <br>
-                ਮੈਂ ਜਦੋਂ ਤੇਰੇ ਖ਼ਾਬਾਂ ਵਾਲ਼ੀ ਰਾਹ ਤੁਰਿਆ
-                ਮੈਂ ਤੁਰਿਆ ਬੜਾ, ਨਾ ਮੈਥੋਂ ਜਾਵੇ ਮੁੜਿਆ
+               
             </h1>
             
         </div>
